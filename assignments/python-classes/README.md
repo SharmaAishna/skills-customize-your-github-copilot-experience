@@ -2,32 +2,44 @@
 
 ## 🎯 Objective
 
-Learn how to define and use classes in Python to model real-world objects and behaviors.
+Learn how to define and use Python classes to model real-world objects, organize related data, and add behavior to your programs.
 
 ## 📝 Tasks
 
-### 🛠️ Define a Simple Class
+### 🛠️ Create a `Car` Class
 
 #### Description
-Create a class named `Car` that represents a car with attributes for make, model, and year. Add a method to display information about the car.
+Design a simple class named `Car` that stores information about a vehicle and prints it in a clear, readable format.
 
 #### Requirements
 Completed program should:
 
-- Define a class `Car` with `make`, `model`, and `year` attributes
-- Include a method `display_info()` that prints the car's details
-- Create an instance of `Car` and call `display_info()`
+- Define a class named `Car`
+- Include attributes for `make`, `model`, and `year`
+- Add a method called `display_info()` that prints the car's details
+- Create at least one `Car` instance and call `display_info()`
 
-
-### 🛠️ Add Methods and Interactions
+### 🛠️ Add Behavior with Methods
 
 #### Description
-Expand the `Car` class to include a method to update the car's mileage and another to display the current mileage.
+Expand your `Car` class so it can track mileage and update it as the car is driven.
 
 #### Requirements
 Completed program should:
 
-- Add a `mileage` attribute to the `Car` class (default 0)
-- Add a method `update_mileage(new_mileage)` to update the mileage
-- Add a method `display_mileage()` to print the current mileage
-- Demonstrate updating and displaying mileage for a `Car` instance
+- Add a `mileage` attribute with a default value of `0`
+- Include a method called `update_mileage(new_mileage)` to change the mileage
+- Include a method called `display_mileage()` to print the current mileage
+- Demonstrate updating and displaying mileage for a `Car` object
+
+### 🛠️ Practice Reusable Object Design
+
+#### Description
+Use your class to model more than one car and show how each object keeps its own values independently.
+
+#### Requirements
+Completed program should:
+
+- Create at least two `Car` objects with different values
+- Display the details for each object using the class methods
+- Show that each instance stores its own state separately
